@@ -4,4 +4,11 @@ title:iOS keyboard notifications
 category:blog, iOS
 ---
 
-iOS keyboard notification contains three notifications related to position
+iOS keyboard notification contains three notifications related to position:
+# UIKeyboardWillShowNotification
+# UIKeyboardWillHideNotification
+# UIKeyboardWillChangeNotification
+
+In different situations the notifications are different
+# No keyboard, tap on text view to show keyboard.
+## 
