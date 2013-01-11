@@ -58,3 +58,7 @@ In different situations the notifications are different
 ## change. From 0,278,1024,270 to 1024,-20,0,0
 ## change From 0,210,1024,486 to 0,342,1024,486
 ## show. From 0,748,1024,486 to 0,342,1024,486
+
+OK, enough for the experiments. It is impossible to handle undock and split because for these two cases, the keyboard is invisible.
+
+That let us have only one way: using inputAccessoryView. We let the system do most the work until a Bluetooth keyboard is attached. Now we don't set inputAccessoryView to nil directly. We change the content of inputAccessoryView.
