@@ -62,3 +62,5 @@ In different situations the notifications are different
 OK, enough for the experiments. It is impossible to handle undock and split because for these two cases, the keyboard is invisible.
 
 That let us have only one way: using inputAccessoryView. We let the system do most the work until a Bluetooth keyboard is attached. Now we don't set inputAccessoryView to nil directly. We change the content of inputAccessoryView.
+
+In such way, we don't have to care about the complexity of attaching input accessory view. The only thing we need to care about it when Bluetooch keyboard is connected, we need to hide the keyboard.
