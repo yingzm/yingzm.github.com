@@ -11,6 +11,7 @@ iOS keyboard notification contains three notifications related to position:
 * UIKeyboardWillChangeNotification
 
 In different situations the notifications are different
+
 * No keyboard, tap on text view to show keyboard.
 1. change. From 0,748,1024,352 to 0,396,1024,352
 2. show. From 0,748,1024,352 to 0,396,1024,352
