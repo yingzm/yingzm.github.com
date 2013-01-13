@@ -1,6 +1,6 @@
 ---
 layout: post
-title:iOS keyboard notifications
+title: iOS keyboard notifications
 category: blog
 ---
 {% include JB/setup %}
