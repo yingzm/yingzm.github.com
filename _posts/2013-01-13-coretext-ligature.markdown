@@ -9,3 +9,5 @@ I was using CoreText to draw some monospace text. However, I found the result is
 It turns out that iOS has another method to adjust spaces bwtween characters called ligature. The concept of ligature can be get at http://en.wikipedia.org/wiki/Typographic_ligature .
 
 So the solution is simple, just set kCTLigatureAttributeName to 0.
+
+    [NSNumber numberWithFloat:0], (id)kCTLigatureAttributeName
