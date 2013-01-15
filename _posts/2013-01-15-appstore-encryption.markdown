@@ -3,7 +3,7 @@ layout: post
 title: AppStore encryption
 category: ios
 ---
-{% JB/setup %}
+{% include JB/setup %}
 
 When submitting application to AppStore, apple will ask a question
     Is your product designed to use cryptography or does it contain or incorporate cryptography?
