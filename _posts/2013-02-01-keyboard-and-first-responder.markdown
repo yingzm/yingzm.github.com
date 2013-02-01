@@ -9,3 +9,5 @@ I came to a very strange problem today. I have a split layout view  for iPad. Th
 Here is the strange thing. I have text view the first responder, and keyboard is shown. But then I brings up the modal view controller, the keyboard disappeared, but the text view still has first responder! Here is the strange thing. The text view can be selected, copy, paste, but can't show keyboard....
 
 Still don't know why, maybe Apple don't want developer to do that.
+
+Flip horizontal inside master view is strange.
